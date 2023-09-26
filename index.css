@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(37, 36, 36);
+    cursor: none;
+}
+
+#big-circle{
+    position: fixed;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(35, 253, 6);
+    border-radius: 50%;
+    filter: blur(100px);
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+}
+#Mini-circle{
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(253, 208, 6);
+    border-radius: 50%;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+    
+}
